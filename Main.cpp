@@ -2,15 +2,13 @@
 #include <stdlib.h>
 using namespace std;
 
-// 
-string user_input(string input) {
-    string output = "This program works!";
-    return output;
+// user_input function
+void user_input(){
+    string input;
+    cin >> input;
+    cout << input << endl;
 };
 
-
 int main(int argc, char *argv[]) {
-    
     user_input;
-    return 0;
 }
