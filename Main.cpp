@@ -3,17 +3,14 @@
 using namespace std;
 
 // 
-class user_input {
-    public:
-        string output = "This program works!";
-    void print_out(){
-        cout << output << endl;
-    }
+string user_input(string input) {
+    string output = "This program works!";
+    return output;
 };
 
 
 int main(int argc, char *argv[]) {
-    user_input input;
-    input.print_out();
+    
+    user_input;
     return 0;
 }
