@@ -13,6 +13,7 @@ class user_input {
 
 
 int main(int argc, char *argv[]) {
-
+    user_input input;
+    input.print_out();
     return 0;
 }
